@@ -1,0 +1,85 @@
+html[data-bs-theme="dark"] {
+    body {
+        background: #061510;
+        color: #788983;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        color: #fff;
+    }
+    .theme-main-menu.menu-style-three .bottom-header {
+        background: #010f0a;
+        .nav-item .nav-link {
+            color: #fff;
+        }
+        .right-widget .search-form-one input {
+            color: $color-four;
+        }
+    }
+    .feature-block-seven {
+        background: transparent;
+        &:before {
+            display: none;
+        }
+        .box-layout-two {
+            border-top: 2px solid #475b54;
+        }
+    }
+    .causes-section-one {
+        background: url("../images/media/img_44.jpg") no-repeat center center / cover;
+    }
+    .card-style-two {
+        background: #13362b;
+        .info-meta {
+            background: #03150f;
+            .tags {
+                color: $color-four;
+            }
+            .supporters,.progress-bar span {
+                color: #3e8f75;
+            }
+            .progress-bar .progress {
+                background: #3e8f75;
+            }
+        }
+    }
+    .event-section-three,.feature-block-four {
+        background: #0c241c;
+    }
+    .feature-block-four li span {
+        color: #3e8f75;
+    }
+    .blog-section-one {
+        background: transparent;
+    }
+    .blog-meta-one .post-meta {
+        background: #152922;
+        box-shadow: none;
+        .bottom-widget li {
+            color: #fff;
+        }
+    }
+    .card-style-two .info-meta .fund-goal {color: #fff;}
+    .feedback-section-one .feedback-wrapper .bg-wrapper .name-wrapper h5 {color: $color-four;}
+
+
+
+
+
+    @media (max-width: 991px) { 
+        .navbar-collapse {
+            background: #010f0a;
+            border-right: 1px solid rgba($color: #fff, $alpha: 0.15);
+        }
+        .navbar .dropdown-menu {
+            background: #02171c;
+            .dropdown-item {
+                color: #fff;
+                border-color: rgba($color: #fff, $alpha: 0.15);
+            }
+        }
+        .theme-main-menu .nav-item .nav-link {
+            color: #fff;
+            border-color: rgba($color: #fff, $alpha: 0.15);
+        }
+    }
+}

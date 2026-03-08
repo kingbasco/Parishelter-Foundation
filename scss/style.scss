@@ -1,0 +1,46 @@
+/* ==============================================
+                Table Of Content
+=================================================
+        01. Mixin
+        02. Variable
+        03. Theme Base Css
+        04. Default Prefix
+        05. Title Style
+        06. Button Style
+        07. Header
+        08. Banner
+        09. Basic Layout of complete template
+        10. Elements Short code
+        11. Card Style
+        12. Event
+        13. Donation
+        14. Feedback
+        15. Blog
+        16. Contact
+        17. Footer
+        18. Animation
+        19. Plugins Css
+        20. Dark Mood Css
+
+=================================================*/
+
+
+
+@import "mixins";
+@import "variables";
+@import "base";
+@import "prefix";
+@import "title";
+@import "button";
+@import "header";
+@import "banner";
+@import "layout";
+@import "element";
+@import "card";
+@import "feedback";
+@import "blog";
+@import "contact.scss";
+@import "footer";
+@import "animation";
+@import "vendor";
+@import "dark";

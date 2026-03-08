@@ -1,0 +1,641 @@
+/* ===================== Banner Css ====================== */
+// Hero Banner One
+.hero-banner-one {
+    overflow: hidden;
+
+    .slogan {
+        display: inline-block;
+        border-bottom: 1px solid $color-three;
+        color: $color-three;
+        font-weight: 600;
+        line-height: 1.2em;
+    }
+
+    .hero-heading {
+        font-size: 112px;
+        line-height: 0.875em;
+        font-weight: 700;
+        color: $color-three;
+        margin: 25px 0 27px;
+    }
+
+    .avatar-group {
+        li {
+            margin-right: -12px;
+
+            &:last-child {
+                padding-left: 24px;
+                line-height: 1.5em;
+                margin-right: 0;
+                max-width: calc(100% - 150px);
+            }
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            outline: 1px solid #fff;
+        }
+    }
+
+    .media-wrapper {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-right: 8%;
+        max-width: 45%;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 17%;
+            z-index: 1;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.4) 75%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 17%;
+            z-index: 1;
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.4) 75%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        .card-wrapper {
+            padding: 30px 25px 30px 30px;
+            border-radius: 10px;
+            max-width: 320px;
+            background: $color-two;
+            position: absolute;
+            left: -23%;
+            top: 15%;
+            z-index: 2;
+            animation: jumpTwo 8s infinite linear;
+
+            .icon {
+                width: 60px;
+                height: 60px;
+                color: #fff;
+                font-size: 25px;
+                background: #2a322f;
+            }
+
+            p {
+                width: calc(100% - 60px);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.25em;
+                margin: 0;
+                padding-left: 22px;
+            }
+        }
+
+        .shape_01 {
+            top: -11%;
+            right: 9%;
+        }
+
+        .shape_02 {
+            right: 5%;
+            bottom: 31%;
+            animation: rotated 95s infinite linear;
+        }
+
+        .shape_03 {
+            left: -29%;
+            bottom: 7%;
+            max-width: 16%;
+            animation: rotated 95s infinite linear;
+        }
+    }
+}
+
+// Hero Banner Two
+.hero-banner-two {
+    background: #fdfbf1;
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        width: 100%;
+        height: 27%;
+        z-index: -1;
+        background: linear-gradient(180deg, rgba(253, 251, 241, 1) 0%, rgba(253, 251, 241, 0.8) 35%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: calc(100% - 140px);
+        height: 1px;
+        background: #c5d0cc;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .slogan {
+        display: inline-block;
+        border-bottom: 1px solid $color-three;
+        color: $color-three;
+        font-weight: 600;
+        line-height: 1.2em;
+    }
+
+    .hero-heading {
+        font-size: 90px;
+        line-height: 1.0888em;
+        font-weight: 700;
+        color: $color-three;
+        margin: 8px 0 16px;
+
+        span {
+            display: inline-block;
+            font-family: $font-Amita;
+            color: #2a493d;
+            position: relative;
+
+            .line-shape {
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    .media-wrapper {
+        position: absolute;
+        top: 95px;
+        right: 11%;
+        outline: 20px solid #93d2be;
+        border-radius: 0 0 50px 0;
+        max-width: 29%;
+
+        .card-wrapper {
+            padding: 30px 25px 30px 30px;
+            border-radius: 10px;
+            max-width: 320px;
+            background: $color-two;
+            position: absolute;
+            left: -40%;
+            top: 16%;
+            z-index: 2;
+            animation: jumpTwo 8s infinite linear;
+
+            .icon {
+                width: 60px;
+                height: 60px;
+                color: #fff;
+                font-size: 25px;
+                background: $color-three;
+            }
+
+            p {
+                width: calc(100% - 60px);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.25em;
+                margin: 0;
+                padding-left: 22px;
+            }
+        }
+
+        .card-wrapper-two {
+            padding: 25px;
+            max-width: 270px;
+            position: absolute;
+            right: -26%;
+            top: 12%;
+            z-index: 2;
+            transform: rotate(12deg);
+
+            .icon {
+                width: 60px;
+                height: 60px;
+                color: $color-four;
+                font-size: 25px;
+                background: $color-two;
+            }
+
+            p {
+                width: calc(100% - 60px);
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.25em;
+                margin: 0;
+                padding-right: 22px;
+            }
+
+            &.position-two {
+                right: auto;
+                top: auto;
+                left: -20%;
+                bottom: -4%;
+            }
+        }
+
+        .icon-shape {
+            width: 112px;
+            height: 112px;
+            background: #d6e8e2;
+            box-shadow: 0px 23px 29px 0px rgba(203, 225, 218, 0.35);
+            position: absolute;
+            padding: 15px;
+            right: -60px;
+            bottom: 25px;
+        }
+    }
+
+    .shape_01 {
+        right: 3%;
+        bottom: 28%;
+    }
+
+    .shape_03 {
+        left: 6%;
+        bottom: 8%;
+        max-width: 7%;
+        animation: rotated 95s infinite linear;
+    }
+
+    .shape_02 {
+        left: 13%;
+        top: 29%;
+        max-width: 4%;
+        animation: rotated 95s infinite linear;
+    }
+
+    .shape_04 {
+        left: 42%;
+        bottom: 11%;
+    }
+}
+
+// Hero Banner Three
+.hero-banner-three {
+    overflow: hidden;
+    
+
+    .slider-bg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding: 145px 0 150px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 34%;
+            left: 0;
+            bottom: 0;
+            background: linear-gradient(0deg, rgba(66,93,84,0.8) 0%, rgba(32,41,33,0.4) 75%, rgba(21,23,16,0) 100%);
+            z-index: -1;
+        }
+    }
+
+    .slogan {
+        border-bottom: 1px solid $color-three;
+        color: $color-three;
+        line-height: 1.2em;
+    }
+
+    .hero-heading {
+        font-size: 112px;
+        line-height: 0.875em;
+        font-weight: 700;
+        color: #fff;
+        margin: 22px 0 27px;
+    }
+
+    .avatar-group {
+        li {
+            margin-right: -12px;
+
+            &:last-child {
+                padding-left: 24px;
+                line-height: 1.5em;
+                margin-right: 0;
+                max-width: calc(100% - 150px);
+            }
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            outline: 1px solid #fff;
+        }
+    }
+
+    .card-one {
+        position: absolute;
+        right: 13%;
+        bottom: -4%;
+        background: #fff;
+        border-radius: 45px;
+        width: 265px;
+        padding: 15px 15px;
+        animation: jumpTwo 7s infinite linear;
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            background: #fff;
+        }
+
+        .text {
+            width: calc(100% - 60px);
+            padding-left: 15px;
+
+            .main-count {
+                font-size: 22px;
+                font-weight: 600;
+                color: #131216;
+                margin-bottom: -7px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 500;
+                color: #4a6f63;
+                margin: 0;
+            }
+        }
+    }
+    .slider-arrows {
+        position: absolute;
+        left: 1%;
+        top:41%;
+        transform: translateY(-50%);
+        z-index: 1;
+        height: 370px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: calc(100% - 60px);
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+            background: #295a52;
+            z-index: -1;
+        }
+        li {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            background: #425d54;
+            color: #fff;
+            font-size: 30px;
+            @include transition(0.3s);
+            cursor: pointer;
+            &:hover {
+                background: $color-two;
+                color: $color-four;
+            }
+        }
+    }
+    .screen_01 {
+        right: 0;
+        top: -6%;
+        z-index: 1;
+        max-width: 12%;
+    }
+
+    .shape_01 {
+        right: 0;
+        top: -17%;
+        z-index: 0;
+        max-width: 14%;
+    }
+
+    .shape_02 {
+        top: 16%;
+        right: 41%;
+        z-index: 0;
+        max-width: 4%;
+        animation: rotated 75s infinite linear;
+    }
+
+    .shape_03 {
+        bottom: 10%;
+        left: 6%;
+        z-index: 0;
+        max-width: 6%;
+        animation: rotated 75s infinite linear;
+    }
+}
+
+// Fancy Banner One 
+.fancy-banner-one {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 240px);
+        left: 0;
+        top: 0;
+        background: #e4f8f2;
+        z-index: -1;
+    }
+    &.bg-two:before {
+        background: #cdf3e7;
+    }
+    &.bg-three:before {
+        background: #fff;
+    }
+
+    .bg-wrapper {
+        background: url(../images/media/img_19.jpg) no-repeat center;
+        background-size: cover;
+        border-radius: 30px;
+        padding: 115px 0;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            border-radius: 30px;
+            background: linear-gradient(270deg, rgba(37, 214, 177, 0.01) 0%, rgba(37, 214, 177, 0.3) 47%, rgba(37, 214, 177, 0.4) 49%, rgba(37, 214, 177, 0.8) 66%);
+        }
+    }
+
+    form {
+        max-width: 638px;
+        height: 60px;
+
+        input {
+            font-size: 16px;
+            width: 100%;
+            height: 100%;
+            padding: 0 100px 0 30px;
+            border-radius: 30px;
+            border: none;
+            background: #fff;
+        }
+
+        button {
+            position: absolute;
+            font-weight: 500;
+            color: $color-four;
+            font-style: italic;
+            width: 120px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            border: 30px;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 54%;
+                background: #ffe132;
+                border-radius: 30px;
+                z-index: -1;
+                @include transition(0.3s);
+            }
+
+            &:hover {
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &.version-two {
+        .bg-wrapper {
+            background: none;
+            padding: 0 0 100px;
+
+            &:before {
+                display: none;
+            }
+        }
+
+        &:before {
+            display: none;
+        }
+
+        form {
+            margin: 0 auto;
+
+            input {
+                background: #f3f2ea;
+            }
+        }
+
+        .shape_01 {
+            right: 7%;
+            bottom: 19%;
+            max-width: 5%;
+            animation: rotated 95s infinite linear;
+        }
+
+        .shape_02 {
+            left: 5%;
+            bottom: 35%;
+            max-width: 5%;
+            animation: jumpTwo 5s infinite linear;
+        }
+    }
+
+    &.version-three {
+        background: #131e1a;
+        .bg-wrapper {
+            background: none;
+            padding: 110px 0 130px;
+
+            &:before {
+                display: none;
+            }
+        }
+        p {
+            color: #769186;
+        }
+        &:before {
+            display: none;
+        }
+
+        form {
+            margin: 0 auto;
+
+            input {
+                background: #17241f;
+                color: #fff;
+                border: 1px solid #3f534c;
+                &::placeholder {
+                    color: rgba($color: #fff, $alpha: 0.6);
+                }
+            }
+            button {
+                color: #59776b;
+            }
+        }
+
+        .shape_03 {
+            right:11%;
+            bottom: 36%;
+            max-width: 6%;
+        }
+
+        .shape_04 {
+            left: 9%;
+            bottom: 35%;
+            max-width: 6%;
+        }
+    }
+}
+// Inner Banner One
+.inner-banner-one {
+    background: url(../images/media/img_45.jpg) no-repeat center / cover;
+    padding: 150px 0 150px;
+    h2 {
+        font-size: 80px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 7px;
+    }
+    .breadcrumb-content {
+        ul::before {
+            content: '';
+            position: absolute;
+            width: 95%;
+            height: 1px;
+            background: #3e8f75;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+        li {
+            font-family: $font-Amita;
+            font-size: 20px;
+            color: #3e8f75;
+            margin: 0 3px;
+        }
+    }
+    .shape_01 {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 38%;
+    }
+}
