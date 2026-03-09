@@ -85,7 +85,7 @@
                 height: 60px;
                 color: #fff;
                 font-size: 25px;
-                background: #2a322f;
+                background: #2d3d59;
             }
 
             p {
@@ -162,7 +162,7 @@
         span {
             display: inline-block;
             font-family: $font-Amita;
-            color: #2a493d;
+            color: $color-one;
             position: relative;
 
             .line-shape {
@@ -177,7 +177,7 @@
         position: absolute;
         top: 95px;
         right: 11%;
-        outline: 20px solid #93d2be;
+        outline: 20px solid #8eb8d9;
         border-radius: 0 0 50px 0;
         max-width: 29%;
 
@@ -367,7 +367,7 @@
             p {
                 font-size: 16px;
                 font-weight: 500;
-                color: #4a6f63;
+                color: #495c7f;
                 margin: 0;
             }
         }
@@ -387,14 +387,14 @@
             left: 50%;
             top: 50%;
             transform: translate(-50% , -50%);
-            background: #295a52;
+            background: #2d3d59;
             z-index: -1;
         }
         li {
             width: 65px;
             height: 65px;
             border-radius: 50%;
-            background: #425d54;
+            background: #253671;
             color: #fff;
             font-size: 30px;
             @include transition(0.3s);
@@ -445,11 +445,11 @@
         height: calc(100% - 240px);
         left: 0;
         top: 0;
-        background: #e4f8f2;
+        background: #e5f2f9;
         z-index: -1;
     }
     &.bg-two:before {
-        background: #cdf3e7;
+        background: #d3e9f5;
     }
     &.bg-three:before {
         background: #fff;
@@ -620,7 +620,7 @@
             position: absolute;
             width: 95%;
             height: 1px;
-            background: #3e8f75;
+            background: #3d5fa7;
             left: 50%;
             bottom: 0;
             transform: translateX(-50%);
@@ -628,7 +628,7 @@
         li {
             font-family: $font-Amita;
             font-size: 20px;
-            color: #3e8f75;
+            color: #3d5fa7;
             margin: 0 3px;
         }
     }

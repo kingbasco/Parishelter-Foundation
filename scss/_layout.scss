@@ -16,7 +16,7 @@
             position: absolute;
             right: -27%;
             top: 8%;
-            background: #cfe3dd;
+            background: #d3e9f5;
             border-radius: 45px;
             width: 265px;
             padding: 15px 15px;
@@ -42,7 +42,7 @@
                 p {
                     font-size: 16px;
                     font-weight: 500;
-                    color: #4a6f63;
+                    color: #495c7f;
                     margin: 0;
                 }
             }
@@ -69,7 +69,7 @@
             p {
                 font-size: 16px;
                 font-weight: 500;
-                color: #4a6f63;
+                color: #495c7f;
                 margin: 0;
             }
         }
@@ -142,7 +142,7 @@
             }
 
             p {
-                color: #4a6f63;
+                color: #495c7f;
                 margin: 0;
             }
         }
@@ -172,7 +172,7 @@
                     width: 9px;
                     height: 9px;
                     background: #ffe132;
-                    outline: 3px solid #407d69;
+                    outline: 3px solid #3d5fa7;
                     border-radius: 50%;
                     right: -5px;
                     top: 50%;
@@ -204,7 +204,7 @@
             position: absolute;
             left: -27%;
             bottom: 11%;
-            background: #cfe3dd;
+            background: #d3e9f5;
             border-radius: 45px;
             width: 220px;
             padding: 15px 15px;
@@ -230,7 +230,7 @@
                 p {
                     font-size: 16px;
                     font-weight: 500;
-                    color: #4a6f63;
+                    color: #495c7f;
                     margin: 0;
                 }
             }
@@ -280,7 +280,7 @@
 
     .text_01 {
         max-width: 290px;
-        color: #508d79;
+        color: #3d5fa7;
         line-height: 1.666em;
         padding-left: 15px;
         position: relative;
@@ -292,7 +292,7 @@
             left: 0;
             width: 3px;
             height: 84%;
-            background: #508d79;
+            background: #3d5fa7;
             top: 44%;
             transform: translateY(-50%);
         }
@@ -524,7 +524,7 @@
 
     .bg-wrapper {
         background: #fff9da;
-        border: 2px solid #3e8f75;
+        border: 2px solid #3d5fa7;
         border-radius: 5px;
         padding: 45px 15px;
         margin-bottom: -150px;
@@ -589,7 +589,7 @@
             margin-right: 12px;
             width: calc(25% - 24px);
             max-width: 312px;
-            background: #478470;
+            background: #3d5fa7;
             border-radius: 5px;
             padding: 54px 50px 53px;
 
@@ -656,7 +656,7 @@
 }
 
 .event-section-one {
-    background: #cdf3e7;
+    background: #d3e9f5;
 
     &:before {
         content: '';
@@ -793,7 +793,7 @@
             }
 
             .text {
-                background: #c6dad3;
+                background: #d3e9f5;
                 padding: 53px 30px 30px;
                 border-radius: 0 0 30px 30px;
                 margin-top: -30px;
@@ -808,7 +808,7 @@
                 .role {
                     display: inline-block;
                     font-size: 16px;
-                    color: rgba($color: #2a493d, $alpha: 0.8);
+                    color: rgba($color: $color-one, $alpha: 0.8);
                     text-decoration: underline;
                     margin-bottom: 10px;
                 }
@@ -869,7 +869,7 @@
             font-family: $font-Amita;
             display: inline-block;
             font-size: 19px;
-            color: rgba($color: #2a493d, $alpha: 0.8);
+            color: rgba($color: $color-one, $alpha: 0.8);
             text-decoration: underline;
             margin-bottom: 10px;
         }
@@ -1020,7 +1020,7 @@
 
     .progress-box {
         max-width: 724px;
-        background: #cbdfd8;
+        background: #d3e9f5;
         border-radius: 10px;
         padding: 0 35px 0 0;
         margin-top: -10px;
@@ -1050,7 +1050,7 @@
                 margin: 7px 0 5px;
 
                 .progress {
-                    background: #3e8f75;
+                    background: #3d5fa7;
                     border-radius: 10px;
                     overflow: visible;
 
@@ -1060,7 +1060,7 @@
                         width: 9px;
                         height: 9px;
                         background: #ffe132;
-                        outline: 3px solid #407d69;
+                        outline: 3px solid #3d5fa7;
                         border-radius: 50%;
                         right: -5px;
                         top: 50%;
@@ -1248,7 +1248,7 @@
                         position: absolute;
                         width: 9px;
                         height: 9px;
-                        background: #f9da22;
+                        background: #e6b366;
                         border-radius: 2px;
                         left: 5px;
                         top:9px;
@@ -1363,7 +1363,7 @@
         margin-bottom: 28px;
     }
     .sidebar-category {
-        background: #cbdfd8;
+        background: #d3e9f5;
         padding: 35px 20px 35px;
         &:before {
             content: '';
@@ -1393,7 +1393,7 @@
         }
     }
     .widget-banner-one {
-        background: #cbdfd8;
+        background: #d3e9f5;
         padding: 25px 20px 30px;
         &:before {
             content: '';
@@ -1457,7 +1457,7 @@
     }
 
     .widget-banner-three {
-        background: #cbdfd8;
+        background: #d3e9f5;
         padding: 42px 24px 30px;
         &:before {
             content: url(../images/shape/shape_50.png);
@@ -1584,7 +1584,7 @@
                 width: 51%;
                 height: 50%;
                 background: #fff;
-                border: 6px solid #407d69;
+                border: 6px solid #3d5fa7;
                 z-index: -1;
                 border-radius: 30px;
             }

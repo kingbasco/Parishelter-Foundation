@@ -105,7 +105,7 @@
             }
             .top-header-nav-one {
                 i {
-                    color: #f9da22;
+                    color: #e6b366;
                 }
             }
             .top-header-nav-two {
@@ -156,7 +156,7 @@
         transition: transform 0.25s;
         -webkit-transform-origin: 50% 50%;
         transform-origin: 50% 50%;
-        background: #425d54;
+        background: #253671;
     }
     .navbar-toggler span {
         position: absolute;
@@ -168,7 +168,7 @@
         text-indent: 200%;
         -webkit-transition: opacity 0.25s;
         transition: opacity 0.25s;
-        background: #425d54;
+        background: #253671;
     }
     .navbar-toggler::before {
         -webkit-transform: translate3d(0, -9px, 0) scale3d(1, 1, 1);
@@ -219,14 +219,14 @@
             background: #324a42;
             border-radius: 0 0 5px 5px;
             .right-widget .search-form-one input {
-                background: #425d54;
+                background: #253671;
             }
         }
     }
     // Menu Three
     &.menu-style-three { 
         .top-header {
-            background: #425d54;
+            background: #253671;
             font-size: 16px;
             .column-wrapper {
                 padding: 15px 0;
@@ -334,7 +334,7 @@
                 border-radius: 3px 50px 50px 3px;
                 padding: 0 50px 0 15px;
                 color: #c5cbc9;
-                background: #295043;
+                background: #2d3d59;
                 &::placeholder {
                     color: #c5cbc9;
                 }
