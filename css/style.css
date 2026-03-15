@@ -4735,16 +4735,16 @@ iframe {
 .pagination-one ul li a {
   width: 55px;
   line-height: 48px;
-  border: 1px solid #3c8970;
+  border: 1px solid #3d5fa7;
   font-size: 22px;
   font-weight: 500;
-  color: #3c8970;
+  color: #3d5fa7;
   text-align: center;
   border-radius: 5px;
   transition: all 0.3s ease-in-out 0s;
 }
 .pagination-one ul li a:hover, .pagination-one ul li a.active {
-  background: #3c8970;
+  background: #3d5fa7;
   color: #fff;
 }
 
