@@ -23,7 +23,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     background-image: url('../images/logo/logo_03.png'); /* your logo */
     background-repeat: repeat;
     background-size: 250px;
-    opacity: 0.10; /* adjust visibility */
+    opacity: 0.05; /* adjust visibility */
     pointer-events: none;
     z-index: 0;
 }
