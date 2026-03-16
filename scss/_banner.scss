@@ -5,11 +5,8 @@
 
     .slogan {
         display: inline-block;
-        border-bottom: 1px solid $color-three;
         color: $color-three;
         font-weight: 600;
-        line-height: 1.2em;
-    }
 
     .hero-heading {
         font-size: 112px;
@@ -146,10 +143,8 @@
 
     .slogan {
         display: inline-block;
-        border-bottom: 1px solid $color-three;
         color: $color-three;
         font-weight: 600;
-        line-height: 1.2em;
     }
 
     .hero-heading {
@@ -304,9 +299,7 @@
     }
 
     .slogan {
-        border-bottom: 1px solid $color-three;
         color: $color-three;
-        line-height: 1.2em;
     }
 
     .hero-heading {
@@ -620,7 +613,7 @@
             position: absolute;
             width: 95%;
             height: 1px;
-            background: #3d5fa7;
+            background: #243069;
             left: 50%;
             bottom: 0;
             transform: translateX(-50%);
@@ -628,7 +621,7 @@
         li {
             font-family: $font-Amita;
             font-size: 20px;
-            color: #3d5fa7;
+            color: #243069;
             margin: 0 3px;
         }
     }

@@ -78,7 +78,7 @@
                     width: 9px;
                     height: 9px;
                     background: #e6b366;
-                    outline: 3px solid #3d5fa7;
+                    outline: 3px solid #243069;
                     border-radius: 50%;
                     right: -5px;
                     top: 50%;
@@ -260,7 +260,7 @@
                 font-size: 16px;
                 font-weight: 500;
                 line-height: 1.2em;
-                color: #3d5fa7;
+                color: #243069;
                 text-decoration: underline;
                 margin-left: 5px;
             }
@@ -307,7 +307,7 @@
 .card-style-four {
     padding: 12px 0;
     &.border-style {
-        border-right: 1px solid #3d5fa7;
+        border-right: 1px solid #243069;
     }
     .icon {
         height: 60px;
@@ -382,7 +382,7 @@
             color: $color-four;
             padding: 0 30px;
             line-height: 40px;
-            background: #f2e59b;
+            background: e6b366;
             border-radius: 20px;
             &:hover {
                 background: $color-five;
