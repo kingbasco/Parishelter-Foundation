@@ -32,6 +32,26 @@
   overflow-x: hidden;
 }
 
+@media (max-width: 767px) {
+  .shapes,
+  .shape_01,
+  .shape_02,
+  .shape_03,
+  .shape_04,
+  .shape_05,
+  .shape_06 {
+    max-width: 100%;
+  }
+
+  input,
+  textarea,
+  select,
+  button {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 html, body {
   overflow-x: hidden;
   width: 100%;
