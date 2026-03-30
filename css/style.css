@@ -28,9 +28,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Outfit:wght@100..900&display=swap");
 @import url("../fonts/bootstrap-icons-1.11.1/font/bootstrap-icons.css");
 @import url("../fonts/font-awesome-6.4.2/css/all.css");
+
+
+
+
 .main-page-wrapper {
   overflow-x: hidden;
 }
+
+
 
 * {outline: 1px solid red !important;
 }

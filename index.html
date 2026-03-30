@@ -35,10 +35,17 @@
 				<div class="d-flex justify-content-between align-items-center">
 					<div class="column-wrapper d-flex align-items-center">
 						<ul class="style-none top-header-nav-one d-flex flex-wrap align-items-center">
-							
+							<li class="d-flex align-items-center me-4">
+								<i class="fa-regular fa-location-dot"></i>
+								<span class="ms-2">Plot 978 Kapuwa, Lugbe FLT 7, Abuja, FCT</span>
+							</li>
 							<li class="d-flex align-items-center me-4">
 								<i class="fa-regular fa-envelope"></i>
 								<a href="mailto:info@parishelterfoundation.org" class="email ms-2">info@parishelterfoundation.org</a>
+							</li>
+                            <li class="d-flex align-items-center me-4">
+								<i class="fa-regular fa-mobile-button"></i>
+								<a href="tel:+2349114573930" class="email ms-2">+234 911 457 3930</a>
 							</li>
 						</ul>
 					</div>
@@ -214,8 +221,75 @@
 					</div>
 				</div>
 			</div>
+		
 			
-		<div class="feature-block-seven position-relative pt-100 lg-pt-50 pb-100 lg-pb-70">
+			<style>
+/* DESKTOP: force all 5 boxes in one straight row */
+.feature-block-seven .box-wrapper {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: stretch !important;
+    gap: 20px !important;
+    width: 100% !important;
+    overflow: visible !important;
+}
+
+.feature-block-seven .card-box {
+    flex: 0 0 calc(20% - 16px) !important;
+    max-width: calc(20% - 16px) !important;
+    min-width: calc(20% - 16px) !important;
+    text-align: center !important;
+    margin-top: 25px !important;
+}
+
+.feature-block-seven .icon {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.feature-block-seven .card-box h5 {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    margin-top: 15px !important;
+}
+
+/* MOBILE: horizontal auto scroll */
+@media (max-width: 767px) {
+    .feature-block-seven .box-wrapper {
+        justify-content: flex-start !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        scroll-snap-type: x mandatory !important;
+        padding-bottom: 10px !important;
+        gap: 15px !important;
+    }
+
+    .feature-block-seven .box-wrapper::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    .feature-block-seven .card-box {
+        flex: 0 0 80% !important;
+        max-width: 80% !important;
+        min-width: 80% !important;
+        scroll-snap-align: start !important;
+        margin-top: 15px !important;
+    }
+
+    .feature-block-seven .card-box h5 {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+    }
+
+    .feature-block-seven .icon {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
+</style>
+		<div class="feature-block-seven position-relative pt-100 lg-pt-50 pb-100 lg-pb-70" > 
 			<div class="box-layout-two">
 				<div class="box-wrapper d-flex flex-wrap align-items-center justify-content-between">
 					<div class="card-box mt-25" data-sal="slide-up" data-sal-duration="900">
@@ -230,7 +304,7 @@
 
 					<div class="card-box mt-25" data-sal="slide-up" data-sal-duration="900" data-sal-delay="400">
 						<div class="icon rounded-circle m-auto d-flex align-items-center justify-content-center"><img src="images/icon/icon_25.png" alt=""></div>
-						<h5>Restoring <br>Human <br>Dignity</h5>
+						<h5>Restoring Human <br>Dignity</h5>
 					</div>
 
 					<div class="card-box mt-25" data-sal="slide-up" data-sal-duration="900" data-sal-delay="400">
@@ -240,7 +314,7 @@
 
 					<div class="card-box mt-25" data-sal="slide-up" data-sal-duration="900" data-sal-delay="600">
 						<div class="icon rounded-circle m-auto d-flex align-items-center justify-content-center"><img src="images/icon/icon_28.png" alt=""></div>
-						<h5>Securing <br>Future <br>Potential</h5>
+						<h5>Securing Future <br>Potential</h5>
 					</div>
 				</div>
 			</div>
