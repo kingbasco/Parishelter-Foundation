@@ -91,9 +91,8 @@
 									</li>
 									<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 									<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-									<li class="nav-item">							<a class="nav-link" href="get-support.html">Get Support</a></li>
-
-<li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a></li>
+									<li class="nav-item"><a class="nav-link" href="get-support.html">Get Support</a></li>
+									<li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a></li>
 									<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
 									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 									<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -173,163 +172,53 @@
 					<div class="row">
 						<div class="col-lg-8">
 							<div class="form-style-one md-mb-40">
-								<h4>Please complete the form below</h4>
-								<form action="#" id="support-form" data-toggle="validator" enctype="multipart/form-data">
-									<div class="messages"></div>
-									<div class="row controls">
+								<style>
+									/* make iframe responsive */
+									.form-style-one iframe {
+										width: 100% !important;
+										max-width: 100% !important;
+										display: block !important;
+										margin: 0 auto !important;
+									}
 
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 1: Personal Information</h5>
-										</div>
+									/* mobile fix */
+									@media (max-width: 767px) {
+										.form-style-one {
+											width: 100% !important;
+											text-align: center !important;
+											overflow: hidden !important;
+										}
 
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="text" placeholder="Full Name" name="full_name" required="required" data-error="Full name is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
+										.form-style-one iframe {
+											width: 100% !important;
+											max-width: 100% !important;
+											min-width: 100% !important;
+											display: block !important;
+											margin: 0 auto !important;
+											height: 2900px !important;
+										}
 
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="tel" placeholder="Phone Number" name="phone" required="required" data-error="Phone number is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
+										.contact-form-section .row {
+											justify-content: center !important;
+										}
 
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="email" placeholder="Email Address" name="email" required="required" data-error="Email address is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="text" placeholder="Household Size" name="household_size" required="required" data-error="Household size is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-20">
-												<input type="text" placeholder="Home Address" name="home_address" required="required" data-error="Home address is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<input type="text" placeholder="City / State" name="city_state" required="required" data-error="City / State is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 2: Background Information</h5>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<select name="employment_status" class="form-control" required="required" data-error="Please select employment status.">
-													<option value="" selected disabled>Employment Status</option>
-													<option value="Employed">Employed</option>
-													<option value="Self-Employed">Self-Employed</option>
-													<option value="Unemployed">Unemployed</option>
-													<option value="Student">Student</option>
-													<option value="Other">Other</option>
-												</select>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-30">
-												<input type="text" placeholder="Monthly Income Range (Optional)" name="monthly_income_range">
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 3: Type of Support Needed</h5>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<select name="support_type" class="form-control" required="required" data-error="Please select the type of support needed.">
-													<option value="" selected disabled>Select Support Type</option>
-													<option value="Food Assistance">Food Assistance</option>
-													<option value="Clothing Support">Clothing Support</option>
-													<option value="Temporary Shelter Support">Temporary Shelter Support</option>
-													<option value="Educational Assistance">Educational Assistance</option>
-													<option value="Business / Economic Empowerment Support">Business / Economic Empowerment Support</option>
-													<option value="Medical Support">Medical Support</option>
-													<option value="Other">Other (Specify)</option>
-												</select>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 4: Situation Description</h5>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<textarea placeholder="Please describe your current situation and why you are requesting support." name="situation_description" required="required" data-error="Please describe your situation."></textarea>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 5: Previous Assistance</h5>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<select name="previous_support" class="form-control" required="required" data-error="Please select an option.">
-													<option value="" selected disabled>Have you previously received support from The Parishelter Foundation?</option>
-													<option value="Yes">Yes</option>
-													<option value="No">No</option>
-												</select>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="text" placeholder="If Yes: When?" name="previous_support_when">
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<input type="text" placeholder="If Yes: What type of support?" name="previous_support_type">
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 6: Optional Upload</h5>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<input type="file" name="supporting_documents">
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="address">
-												<h6>Confidentiality Notice</h6>
-												<p class="m0">All information submitted is treated with strict confidentiality and reviewed by authorized personnel only.</p>
-											</div>
-										</div>
-
-										<br><br><br><br><br><br>
-
-										<div class="col-12">
-											<button class="btn-one w-100">Submit Application</button>
-										</div>
-									</div>
-								</form>
+										.contact-form-section .col-lg-8,
+										.contact-form-section .col-lg-4 {
+											width: 100% !important;
+											max-width: 100% !important;
+											flex: 0 0 100% !important;
+										}
+									}
+									</style>
+																	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdMthc_DAsHd-g1e1DdgeAjE91JwHRQ1B0JoB8qlSygXlMqdA/viewform?embedded=true"
+											width="100%"
+											height="1500"
+											frameborder="0"
+											marginheight="0"
+											marginwidth="0">
+										Loading…
+									</iframe>
+								
 							</div>
 						</div>
 

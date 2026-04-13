@@ -91,9 +91,8 @@
 									</li>
 									<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 									<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-									<li class="nav-item">							<a class="nav-link" href="get-support.html">Get Support</a></li>
-
-<li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a></li>
+									<li class="nav-item"><a class="nav-link" href="get-support.html">Get Support</a></li>
+									<li class="nav-item"><a class="nav-link" href="volunteer.html">Volunteer</a></li>
 									<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
 									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 									<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -171,181 +170,53 @@
 					<div class="row">
 						<div class="col-lg-8">
 							<div class="form-style-one md-mb-40">
-								<h4>Tell us about yourself and how you would like to serve</h4>
-								<form action="#" id="volunteer-form" data-toggle="validator">
-									<div class="messages"></div>
-									<div class="row controls">
+								
+								
+								<style>/* make iframe responsive */
+								.form-style-one iframe {
+									width: 100% !important;
+									max-width: 100% !important;
+									display: block !important;
+									margin: 0 auto !important;
+								}
 
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 1: Personal Information</h5>
-										</div>
+								/* mobile fix */
+								@media (max-width: 767px) {
+									.form-style-one {
+										width: 100% !important;
+										text-align: center !important;
+										overflow: hidden !important;
+									}
 
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<input type="text" placeholder="Mr. / Ms." name="Salutaion" required="required" data-error="Salutation is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
+									.form-style-one iframe {
+										width: 100% !important;
+										max-width: 100% !important;
+										min-width: 100% !important;
+										display: block !important;
+										margin: 0 auto !important;
+										height: 2900px !important;
+									}
 
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="text" placeholder="Full Name" name="full_name" required="required" data-error="Full name is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
+									.contact-form-section .row {
+										justify-content: center !important;
+									}
 
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="email" placeholder="Email Address" name="email" required="required" data-error="Valid email is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="tel" placeholder="Phone Number" name="phone" required="required" data-error="Phone number is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="text" placeholder="Date of Birth" name="dob" required="required" data-error="Date of birth is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<input type="text" placeholder="Gender" name="gender" required="required">
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-30">
-												<input type="text" placeholder="Location (City / State)" name="location" required="required" data-error="Location is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 2: Availability</h5>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-20">
-												<select name="availability_type" class="form-control" required="required" data-error="Please select availability type.">
-													<option value="" selected disabled>Availability Type</option>
-													<option value="Weekdays">Weekdays</option>
-													<option value="Weekends">Weekends</option>
-													<option value="Both">Both</option>
-												</select>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="input-wrapper form-group mb-30">
-												<select name="commitment_duration" class="form-control" required="required" data-error="Please select commitment duration.">
-													<option value="" selected disabled>Commitment Duration</option>
-													<option value="Short-term (1–3 months)">Short-term (1–3 months)</option>
-													<option value="Mid-term (3–6 months)">Mid-term (3–6 months)</option>
-													<option value="Long-term (6+ months)">Long-term (6+ months)</option>
-												</select>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 3: Area of Interest</h5>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<select name="area_of_interest" class="form-control" required="required" data-error="Please select an area of interest.">
-													<option value="" selected disabled>Select Area of Interest</option>
-													<option value="Media & Communications">Media & Communications</option>
-													<option value="Outreach & Field Operations">Outreach & Field Operations</option>
-													<option value="Follow-up & Beneficiary Support">Follow-up & Beneficiary Support</option>
-													<option value="Logistics & Distribution">Logistics & Distribution</option>
-													<option value="Administrative Support">Administrative Support</option>
-													<option value="Writing & Documentation">Writing & Documentation</option>
-													<option value="Programs Officer Support">Programs Officer Support</option>
-												</select>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 4: Skills & Experience</h5>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-20">
-												<textarea placeholder="Relevant Skills" name="relevant_skills" required="required" data-error="Relevant skills are required."></textarea>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-20">
-												<textarea placeholder="Previous Volunteer Experience (Optional)" name="previous_experience"></textarea>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<textarea placeholder="Professional Background (Optional)" name="professional_background"></textarea>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 5: Alignment</h5>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-20">
-												<textarea placeholder="Why do you want to volunteer with The Parishelter Foundation?" name="why_volunteer" required="required" data-error="This field is required."></textarea>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="input-wrapper form-group mb-30">
-												<textarea placeholder="What does restoring dignity mean to you?" name="restoring_dignity" required="required" data-error="This field is required."></textarea>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<h5 class="mb-20 mt-10">Section 6: Declaration</h5>
-										</div>
-
-										<div class="col-12">
-											<div class="form-group mb-15">
-												<label class="d-flex align-items">
-													<input type="checkbox" name="accuracy_confirm" required="required" data-error="You must confirm this declaration.">
-													<span class="ms-2">I confirm that the information provided is accurate.</span>
-												</label>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<div class="form-group mb-30">
-												<label class="d-flex align-items-start">
-													<input type="checkbox" name="approval_confirm" required="required" data-error="You must confirm this declaration.">
-													<span class="ms-2">I understand that volunteering is subject to review and approval.</span>
-												</label>
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-
-										<div class="col-12">
-											<button class="btn-one w-100">Apply to Volunteer</button>
-										</div>
-									</div>
-								</form>
+									.contact-form-section .col-lg-8,
+									.contact-form-section .col-lg-4 {
+										width: 100% !important;
+										max-width: 100% !important;
+										flex: 0 0 100% !important;
+									}
+								}
+								</style>
+								<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZfbchQCFQVBdgwNftCyx8jROya56qOlvfsLsqinV4zTRa2Q/viewform?embedded=true"
+									width="100%"
+									height="1500"
+									frameborder="0"
+									marginheight="0"
+									marginwidth="0">
+								Loading…
+							</iframe>
 							</div>
 						</div>
 
